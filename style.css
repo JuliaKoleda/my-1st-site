@@ -1,0 +1,29 @@
+body {
+    background: url(1.png) no-repeat;
+}
+
+TABLE {
+    width: 300px; /* Ширина таблицы */
+    border-collapse: collapse; /* чтобы таблица не разрезалась как торт по кускам */
+    margin: auto;
+    font: 12pt sans-serif;
+}
+TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px dotted black; /* Параметры рамки */
+}
+TH {
+    background: rgba(251, 255, 251, 0.72); /* Цвет фона */
+}
+table tr:first-of-type th:first-of-type
+{
+    color:blue;
+}
+table tr:first-of-type th:nth-of-type(2)
+{
+    color:pink;
+}
+table tr:first-of-type th:nth-of-type(3)
+{
+    color:yellowgreen;
+}

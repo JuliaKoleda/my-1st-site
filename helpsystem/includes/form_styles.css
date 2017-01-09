@@ -1,0 +1,19 @@
+body {
+    background: url(bg-light-4868.png) repeat;
+}
+
+.container form {
+    max-width: 900px;
+    margin: auto; /*задаем ширину 900 и марджин авто выравнивает с одинаковыми отступами*/
+}
+
+.container form h2 { /*заголовок*/
+  margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.btn-primary.disabled           /* курсор по-умолчанию при наведении. если удалим 19 строчку то станет кружочек заблокированный НЕ РАБОТАЕТ*/
+{
+cursor: ;          /*устанавливаем формат курсора*/
+}
